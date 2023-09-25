@@ -1,0 +1,302 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Song+Myung&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+}
+
+/* 웹페이지 표지*/
+figure.title {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../IMG_2514.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header.title{
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-450px, -300px);
+  font-size: 100px;
+  font-family: 'Song Myung', serif;
+  text-align: center;
+}
+
+h4.title{
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-450px, -80px);
+  font-size: 40px;
+  font-family: 'Song Myung', serif;
+  text-align: center;
+}
+
+h5.title{
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-450px, -170px);
+  font-size: 30px;
+  font-family: 'Gowun Dodum', sans-serif;
+  text-align: center;
+}
+
+
+
+
+/* 목적글*/
+section.goal{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: lightblue;
+  padding: 80px 200px 0px;
+}
+
+h3.goal{
+  font-size: 60px;
+  font-family: 'Song Myung', serif;
+  text-align: center;
+}
+
+article.goal_left{
+  width: 700px;
+  height: 700px;
+  background-color: beige;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding: 80px;
+  border-radius: 10%;
+  box-shadow: 5px 15px 30px #6b868fcc;
+}
+
+article.goal_right{
+  width: 700px;
+  height: 700px;
+  background-color: beige;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 80px;
+  border-radius: 10%;
+  box-shadow: 5px 15px 30px #6b868fcc;
+}
+
+h3.goal_title {
+  font-family: 'Song Myung', serif;
+  font-size: 25px;
+}
+
+h5.goal_write{
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 18px;
+}
+
+/* 비금 가산항*/
+section.gasan{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color:beige;
+  padding: 80px 200px 0px;
+}
+
+article.gasan_won{
+  width: 700px;
+  height: 700px;
+  border: 1px solid beige;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+article.gasan_yeon{
+  width: 700px;
+  height: 700px;
+  border: 1px solid beige;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+
+article.photo_yeon1{
+  width: 340px;
+  height: 340px;
+  background-image: url(../image/가산_흑왜가리.JPG);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  float: left;
+  box-shadow: 5px 10px 15px #8d8f6bcc;
+}
+
+article.photo_yeon2{
+  width: 340px;
+  height: 340px;
+  background-image: url(../image/가산_붉은발농게.JPG);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  float: left;
+  box-shadow: 5px 10px 15px #8d8f6bcc;
+}
+
+
+/* 지리산 정령치*/
+section.girisan{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color:lightblue;
+  padding: 80px 200px 0px;
+}
+
+article.girisan_won{
+  width: 700px;
+  height: 700px;
+  border: 1px solid lightblue;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+article.girisan_yeon{
+  width: 700px;
+  height: 700px;
+  border: 1px solid lightblue;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+article.photo_yeon3{
+  width: 340px;
+  height: 340px;
+  background-image: url(../image/지리산_호박벌.JPG);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  float: left;
+  box-shadow: 5px 10px 15px #6b868fcc;
+}
+
+article.photo_yeon4{
+  width: 340px;
+  height: 340px;
+  background-image: url(../image/지리산_맷토끼.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  float: left;
+  box-shadow: 5px 10px 15px #6b868fcc;
+}
+
+/* 곡성 침실습지 */
+section.chim{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color:beige;
+  padding: 80px 200px 0px;
+}
+
+article.chim_won{
+  width: 700px;
+  height: 700px;
+  border: 1px solid beige;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+article.chim_yeon{
+  width: 700px;
+  height: 700px;
+  border: 1px solid beige;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+article.photo_yeon5{
+  width: 340px;
+  height: 340px;
+  background-image: url(../image/침실_수달.JPG);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  float: left;
+  box-shadow: 5px 10px 15px #8d8f6bcc;
+}
+
+article.photo_yeon6{
+  width: 340px;
+  height: 340px;
+  background-image: url(../image/침실_오리.JPG);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  float: left;
+  box-shadow: 5px 10px 15px #8d8f6bcc;
+}
+
+
+/*엔딩*/
+section.we{
+  width: 100vw;
+  height: 30vh;
+  overflow: hidden;
+  background-color:rgb(58, 74, 80);
+  padding: 80px 200px 0px;
+}
+
+h5.end{
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 18px;
+  text-align: right;
+}
+
+
+/* 본문*/
+article.movie_won{
+  width: 700px;
+  height: 350px;
+  background-color: slategray;
+  margin-bottom: 20px;
+}
+
+article.write_yeon{
+  width: 340px;
+  height: 340px;
+  padding : 30px 20px 10px;
+  float: left;
+}
+
+h5.write{
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 18px;
+}
+
+h5.space{
+  font-family: 'Song Myung', serif;
+  font-size: 25px;
+}
+
